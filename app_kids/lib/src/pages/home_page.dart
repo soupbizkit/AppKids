@@ -6,11 +6,18 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.green[100],
       appBar: AppBar(
-        backgroundColor: Colors.yellow[700],
-       title: Text('América Precolombina')
+              backgroundColor: Colors.yellow[700],
+              title: Text('América Precolombina', style: TextStyle(color: Colors.black)), 
       ), //AppBar
       body: Center(
-        child: Column(
+      child: _crearBotones()
+      )
+    );
+  }
+
+
+  Widget _crearBotones(){
+    return Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             RaisedButton(
@@ -52,8 +59,7 @@ class HomePage extends StatelessWidget {
                 'Incas',
                 style: TextStyle(fontSize: 40.0)))
           ],
-        ),
-      )
-    );
+        );
   }
+
 }
