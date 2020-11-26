@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:app_kids/src/pages/ubicacion_incas.dart';
+
 class IncasPage extends StatelessWidget {
 
   @override
@@ -11,7 +13,7 @@ class IncasPage extends StatelessWidget {
               title: Text('Incas', style: TextStyle(color: Colors.black)), 
       ), //AppBar
       body: Center(
-      child: _botonesIncas()
+      child: _botonesIncas(context)
       )
     );
   }
@@ -19,7 +21,7 @@ class IncasPage extends StatelessWidget {
 
 
 
-Widget _botonesIncas(){
+Widget _botonesIncas(context){
     return Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -31,6 +33,9 @@ Widget _botonesIncas(){
               splashColor: Colors.red[300],
               onPressed: (){
                 print("Cliquié Ubicación");
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => UbicacionIncas(),
+                ));
               }, 
               child: Text(
                 'Ubicación',

@@ -1,0 +1,76 @@
+{
+    "nombreApp" : "AppKids",
+    "culturas" : [
+        {
+            "incas" :
+                {   
+                    "img-ubicacion" : "https://www.socialhizo.com/images/edad_antigua/incas/ubicacion-geografica/tahuantinsuyo.png",
+                    "ubicacion" : "los incas estuvieron ubicados en America del sur",
+                    "img-gobernante" : "httpdssd",
+                    "gobernante" : "pepito",
+                    "img-construnciones" : "httpdq",
+                    "construnciones" : "las casas eran así y asa",
+                    "img-social" : "httpwa",
+                    "social" : "caciques blablabla",
+                    "img-vestuarios" : "httppp",
+                    "vestuarios" : "se vestian así  yasa",
+                    "img-dios-1" : "httppp",
+                    "dios1" : "este es el primer dios",
+                    "img-dios-2" : "httppp",
+                    "dios2" : "este es el dios 2",
+                    "img-dios-3" : "httppsp",
+                    "dios3" : "este es el dios 3",
+                    "mito" : "mitomitmotmomtio"
+                }
+            
+        },
+        {
+            "aztecas" : [
+                {
+                    "img-ubicacion" : "https://i.pinimg.com/originals/aa/de/89/aade899b4d05450584de8fa04354e6d8.png",
+                    "ubicacion" : "los aztecas estuvieron ubicados en México",
+                    "img-gobernante" : "httpdssd",
+                    "gobernante" : "pepito",
+                    "img-construnciones" : "httpdq",
+                    "construnciones" : "las casas eran así y asa",
+                    "img-social" : "httpwa",
+                    "social" : "caciques blablabla",
+                    "img-vestuarios" : "httppp",
+                    "vestuarios" : "se vestian así  yasa",
+                    "img-dios-1" : "httppp",
+                    "dios1" : "este es el primer dios",
+                    "img-dios-2" : "httppp",
+                    "dios2" : "este es el dios 2",
+                    "img-dios-3" : "httppsp",
+                    "dios3" : "este es el dios 3",
+                    "mito" : "mitomitmotmomtio"
+                }
+            ]
+        },  
+        {
+            "mayas" : [
+                {
+                    "img-ubicacion" : "https://i.pinimg.com/474x/e5/2c/b6/e52cb6774a25e0070f29a62d8a2206c0.jpg",
+                    "ubicacion" : "los mayas estuvieron ubicados en guatemala, honduras y el salvador",
+                    "img-gobernante" : "httpdssd",
+                    "gobernante" : "pepito",
+                    "img-construnciones" : "httpdq",
+                    "construnciones" : "las casas eran así y asa",
+                    "img-social" : "httpwa",
+                    "social" : "caciques blablabla",
+                    "img-vestuarios" : "httppp",
+                    "vestuarios" : "se vestian así  yasa",
+                    "img-dios-1" : "httppp",
+                    "dios1" : "este es el primer dios",
+                    "img-dios-2" : "httppp",
+                    "dios2" : "este es el dios 2",
+                    "img-dios-3" : "httppsp",
+                    "dios3" : "este es el dios 3",
+                    "mito" : "mitomitmotmomtio"
+                }
+            ]
+            
+        }
+    ]
+}
+
