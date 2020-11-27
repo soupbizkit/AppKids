@@ -4,6 +4,7 @@
         {
             "incas" :
                 {   
+                    "ruta" : "incas",
                     "img-ubicacion" : "https://www.socialhizo.com/images/edad_antigua/incas/ubicacion-geografica/tahuantinsuyo.png",
                     "ubicacion" : "los incas estuvieron ubicados en America del sur",
                     "img-gobernante" : "httpdssd",
@@ -27,6 +28,7 @@
         {
             "aztecas" : [
                 {
+                    "ruta" : "aztecas",
                     "img-ubicacion" : "https://i.pinimg.com/originals/aa/de/89/aade899b4d05450584de8fa04354e6d8.png",
                     "ubicacion" : "los aztecas estuvieron ubicados en México",
                     "img-gobernante" : "httpdssd",
@@ -50,6 +52,7 @@
         {
             "mayas" : [
                 {
+                    "ruta" : "mayas",
                     "img-ubicacion" : "https://i.pinimg.com/474x/e5/2c/b6/e52cb6774a25e0070f29a62d8a2206c0.jpg",
                     "ubicacion" : "los mayas estuvieron ubicados en guatemala, honduras y el salvador",
                     "img-gobernante" : "httpdssd",
@@ -70,6 +73,38 @@
                 }
             ]
             
+        }
+    ],
+
+    "rutas" :[
+        {
+            "ruta" : "Incas"
+        },
+        {
+            "ruta" : "Azteca"          
+        },
+        {
+            "ruta" : "Mayas"
+            
+        }
+    ],
+
+    "opciones" : [
+        {
+            "title" : "Ubicacion",
+            "ruta" : "Ubicacion"
+        },
+        {
+            "title" : "Social",
+            "ruta" : "Social"
+        },
+        {
+            "title" : "Dioses",
+            "ruta" : "Dioses"
+        },
+        {
+            "title" : "Reto",
+            "ruta" : "Reto"
         }
     ]
 }

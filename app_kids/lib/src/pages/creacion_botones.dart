@@ -1,23 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:app_kids/src/providers/rutas_provider.dart';
+import 'package:app_kids/src/providers/opciones_provider.dart';
 
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.green[100],
-      appBar: AppBar(
-              backgroundColor: Colors.yellow[700],
-              title: Text('América Precolombina', style: TextStyle(color: Colors.black)), 
-      ), //AppBar
-      body: _botones(),
-    );
-  }
 
-Widget _botones(){
+Widget botones(){
   return FutureBuilder(
-      future: rutasProvider.cargarDatos(),
+      future: opcionesProvider.cargarDatos(),
       builder: (BuildContext contex, AsyncSnapshot<List<dynamic>> snapshot) {
         if(snapshot.connectionState == ConnectionState.done){
           return ListView(
@@ -42,10 +30,10 @@ Widget _botones(){
               padding: EdgeInsets.all(20.0),
               splashColor: Colors.red[300],
               onPressed: (){
-                 Navigator.pushNamed(context, element['ruta']);
+                Navigator.pushNamed(context, element['ruta']);
               }, 
               child: Text(
-                element['ruta'],
+                element['title'],
                 style: TextStyle(fontSize: 40.0))
       );
 
@@ -54,5 +42,4 @@ Widget _botones(){
 
     return botones;
     
-  }
 }

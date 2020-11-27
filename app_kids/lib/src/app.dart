@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
+
+//propias
 import 'package:app_kids/src/pages/home_page.dart';
+import 'package:app_kids/src/pages/incas_page.dart';
+import 'package:app_kids/src/pages/mayas_page.dart';
+import 'package:app_kids/src/pages/aztecas_page.dart';
 
 class MyApp extends StatelessWidget {
 
@@ -8,9 +13,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Center(
-            child: HomePage()
-            ),
+      initialRoute: '/',
+      routes      : <String, WidgetBuilder>{
+        '/'       : (BuildContext context) => HomePage(),
+        'Incas'   : (BuildContext context) => IncasPage(),
+        'Aztecas' : (BuildContext context) => AztecasPage(),
+        'Mayas'   : (BuildContext context) => MayasPage(),
+        /*'Ubicacion' : (BuildContext context) => UbicacionPage(),
+        'Social' : (BuildContext context) => SocialPage(),
+        'Dioses' : (BuildContext context) => DiosesPage(),
+        'Reto'   : (BuildContext context) => RetoPage(),*/
+
+      }
     );
   }
 }
