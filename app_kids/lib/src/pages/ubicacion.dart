@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:app_kids/src/providers/culturas_provider.dart';
 
-class UbicacionIncas extends StatelessWidget {
+class Ubicacion extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class UbicacionIncas extends StatelessWidget {
       future: culturaProvider.cargarDatos(),
       builder: (BuildContext contex, AsyncSnapshot<List<dynamic>> snapshot) {
         if(snapshot.connectionState == ConnectionState.done){
-          return Image.network(snapshot.data[0]['incas']['img-incas']);
+          return Image.network(snapshot.data[0]['incas']['img-ubicacion']);
         }else{
           print('waiting');
           return CircularProgressIndicator();
