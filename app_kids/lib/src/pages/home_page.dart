@@ -42,7 +42,7 @@ Widget _botones(){
               padding: EdgeInsets.all(20.0),
               splashColor: Colors.red[300],
               onPressed: (){
-                 Navigator.pushNamed(context, element['ruta']);
+                Navigator.pushNamed(context, element['ruta']);
               }, 
               child: Text(
                 element['ruta'],
