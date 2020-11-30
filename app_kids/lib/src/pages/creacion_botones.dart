@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 
-import 'package:app_kids/src/providers/opciones_provider.dart';
+import 'package:app_kids/src/providers/rutas_provider.dart';
 
 Widget botones(){
   return FutureBuilder(
-      future: opcionesProvider.cargarDatos(),
+      future: secondPageRouteProvider.cargarDatos(),
       builder: (BuildContext contex, AsyncSnapshot<List<dynamic>> snapshot) {
         if(snapshot.connectionState == ConnectionState.done){
           return ListView(
@@ -41,4 +41,4 @@ Widget botones(){
 
     return botones;
     
-}
+}*/

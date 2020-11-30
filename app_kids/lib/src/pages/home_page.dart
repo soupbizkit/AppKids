@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
 
 Widget _botones(){
   return FutureBuilder(
-      future: rutasProvider.cargarDatos(),
+      future: rutasCulturasProvider.cargarDatos(),
       builder: (BuildContext contex, AsyncSnapshot<List<dynamic>> snapshot) {
         if(snapshot.connectionState == ConnectionState.done){
           return ListView(
