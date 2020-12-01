@@ -29,11 +29,11 @@
                 {
                     "ruta" : "aztecas",
                     "img-ubicacion" : "https://lh3.googleusercontent.com/proxy/BC_AC2G1sxUtgzhJO60-eW1D4k5Mx61h2Zr9_VU5IHaQlk95VFrhR91VFF4HAKEmSGa5k-UkmvtauBh-cMcODwkuSoJD3j1Dxgfl4XTS8LS8PKBAb8aZQgLBxc5Ltg",
-                    "ubicacion" : "los aztecas estuvieron ubicados en México",
-                    "img-gobernante" : "https://lh3.googleusercontent.com/proxy/BC_AC2G1sxUtgzhJO60-eW1D4k5Mx61h2Zr9_VU5IHaQlk95VFrhR91VFF4HAKEmSGa5k-UkmvtauBh-cMcODwkuSoJD3j1Dxgfl4XTS8LS8PKBAb8aZQgLBxc5Ltg",
-                    "gobernante" : "pepito",
-                    "img-construcciones" : "https://lh3.googleusercontent.com/proxy/BC_AC2G1sxUtgzhJO60-eW1D4k5Mx61h2Zr9_VU5IHaQlk95VFrhR91VFF4HAKEmSGa5k-UkmvtauBh-cMcODwkuSoJD3j1Dxgfl4XTS8LS8PKBAb8aZQgLBxc5Ltg",
-                    "construcciones" : "las casas eran así y asa",
+                    "ubicacion" : "Los aztecas se establecieron en un lugar llamado Tenochtitlan, donde hoy en día se encuentra la ciudad de méxico",
+                    "img-gobernante" : "https://c.files.bbci.co.uk/40BC/production/_102427561_gettyimages-821131424.jpg",
+                    "gobernante" : "El tlaotani era como llamaban a su emperador y era elegido por un consejo integrado por representantes de los clanes, siendo Moctezuma I uno de los más importantes.",
+                    "img-construcciones" : "https://pueblodelalunametzitzin.files.wordpress.com/2019/04/la-gran-tenochtitlan.jpg",
+                    "construcciones" : "Los aztecas crearon sus construcciones encima de un lago con tierra y caña, creando así pequeñas islas artificiales donde subian sus edificios.",
                     "img-social" : "httpwa",
                     "social" : "caciques blablabla",
                     "img-vestuarios" : "httppp",
@@ -96,8 +96,8 @@
                 "ruta" : "social-incas"
             },
             {
-                "title" : "Dioses",
-                "ruta" : "dioses-incas"
+                "title" : "Mitología",
+                "ruta" : "mitologia-incas"
             },
             {
                 "title" : "Reto",
@@ -115,8 +115,8 @@
             "ruta" : "social-aztecas"
         },
         {
-            "title" : "Dioses",
-            "ruta" : "dioses-aztecas"
+            "title" : "Mitología",
+            "ruta" : "mitologia-aztecas"
         },
         {
             "title" : "Reto",
@@ -134,8 +134,8 @@
             "ruta" : "social-mayas"
         },
         {
-            "title" : "Dioses",
-            "ruta" : "dioses-mayas"
+            "title" : "Mitología",
+            "ruta" : "mitologia-mayas"
         },
         {
             "title" : "Reto",

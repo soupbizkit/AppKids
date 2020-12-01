@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:bordered_text/bordered_text.dart';
 
 import 'package:app_kids/src/providers/culturas_provider.dart';
 
@@ -6,14 +7,28 @@ class UbicacionIncas extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.green[100],
-      appBar: AppBar(
-        backgroundColor: Colors.yellow[700],
-        title: Text('Ubicacion')
-      ),
-      body: _ubicacion()  
-      );
+    return Stack(
+      children: <Widget>[
+        Image.asset("assets/imagenFondo.jpg",
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
+          fit: BoxFit.cover),
+        Scaffold(
+          backgroundColor: Colors.transparent,
+          appBar: AppBar(
+            backgroundColor: Colors.green[200],
+            title: BorderedText( 
+                  strokeWidth: 3.0,
+                  strokeColor: Colors.black,
+                  child: Text(
+                    'Ubicación',
+                    style: TextStyle(
+                    color: Colors.white))),
+          ),
+          body: _ubicacion()  
+        )
+      ]
+    );
   }
 
   Widget _ubicacion(){
@@ -25,7 +40,9 @@ class UbicacionIncas extends StatelessWidget {
             padding: EdgeInsets.all(20.0),
             children: [
               _cardTerritorio(snapshot.data, contex),
+              SizedBox(height: 20),
               _cardGobernante(snapshot.data, contex),
+              SizedBox(height: 20),
               _cardConstruccion(snapshot.data, contex)
             ] 
           );
@@ -40,6 +57,7 @@ class UbicacionIncas extends StatelessWidget {
 
 Widget _cardTerritorio(List<dynamic> data, BuildContext context){
     return Card(
+      elevation: 10,
       child: new Container(
         padding: new EdgeInsets.all(20.0),
         child: Column(
@@ -65,6 +83,7 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
 
 Widget _cardGobernante(List<dynamic> data, BuildContext context){
     return Card(
+      elevation: 10,
       child: new Container(
         padding: new EdgeInsets.all(20.0),
         child: Column(
@@ -90,6 +109,7 @@ Widget _cardGobernante(List<dynamic> data, BuildContext context){
 
 Widget _cardConstruccion(List<dynamic> data, BuildContext context){
     return Card(
+      elevation: 10,
       child: new Container(
         padding: new EdgeInsets.all(20.0),
         child: Column(
@@ -99,7 +119,7 @@ Widget _cardConstruccion(List<dynamic> data, BuildContext context){
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image:NetworkImage(data.elementAt(0)['incas']['img-construnciones']),
+                    image:NetworkImage(data.elementAt(0)['incas']['img-construcciones']),
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover

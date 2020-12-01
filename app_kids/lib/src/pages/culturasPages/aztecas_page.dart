@@ -1,20 +1,36 @@
 import 'package:flutter/material.dart';
+import 'package:bordered_text/bordered_text.dart';
 
 import 'package:app_kids/src/providers/rutas_provider.dart';
+
 
 class AztecasPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.green[100],
-      appBar: AppBar(
-              backgroundColor: Colors.yellow[700],
-              title: Text('Aztecas', style: TextStyle(color: Colors.black)), 
-      ), //AppBar
-      body: Center(
-      child: _botones()
-      )
+    return Stack(
+      children: <Widget>[
+        Image.asset("assets/imagenFondo.jpg",
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
+          fit: BoxFit.cover),
+        Scaffold(
+            backgroundColor: Colors.transparent,
+            appBar: AppBar(
+                    backgroundColor: Colors.green[200],
+                    title: BorderedText( 
+                      strokeWidth: 3.0,
+                      strokeColor: Colors.black,
+                      child: Text(
+                        'Aztecas',
+                        style: TextStyle(
+                        color: Colors.white))),
+            ), //AppBar
+            body: Center(
+            child: _botones()
+            )
+        )
+      ]
     );
   }
 
@@ -23,8 +39,12 @@ class AztecasPage extends StatelessWidget {
       future: rutasAztecasProvider.cargarDatos(),
       builder: (BuildContext contex, AsyncSnapshot<List<dynamic>> snapshot) {
         if(snapshot.connectionState == ConnectionState.done){
-          return ListView(
+          return Container(
+            margin: EdgeInsets.only(top: 200),
+            child: ListView(
+            padding: EdgeInsets.all(20.0),
             children: _crearBotones(snapshot.data, contex),
+            )
           );
         }else{
           print('waiting');
@@ -39,16 +59,24 @@ class AztecasPage extends StatelessWidget {
     data.forEach((element){
       final widgetTemp = RaisedButton(
               elevation: 5.0,
-              color: Colors.yellow[700],
-              textColor: Colors.black,
+              shape: new RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(20.0)),
+              color: Colors.deepOrange[200],
+              textColor: Colors.white,
               padding: EdgeInsets.all(20.0),
-              splashColor: Colors.red[300],
+              splashColor: Colors.green[200],
               onPressed: (){
                 Navigator.pushNamed(context, element['ruta']);  
               }, 
-              child: Text(
-                element['title'],
-                style: TextStyle(fontSize: 40.0))
+              child: BorderedText(
+                strokeWidth: 5.0,
+                strokeColor: Colors.black,
+                child: Text(element['title'],
+                style: TextStyle(
+                  fontSize: 40.0,
+                  decoration: TextDecoration.none)
+                )
+              )
       );
 
       botones..add(widgetTemp)..add(SizedBox(height: 20));
