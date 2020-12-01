@@ -75,6 +75,81 @@
             
         }
     ],
+    "social" : [
+        {
+            "incas" :
+                {   
+                    "ruta" : "socialIncas",
+                    "img-ubicacion" : "https://www.socialhizo.com/images/edad_antigua/incas/ubicacion-geografica/tahuantinsuyo.png",
+                    "ubicacion" : "los incas estuvieron ubicados en America del sur",
+                    "img-gobernante" : "https://historiadelperu.info/wp-content/uploads/2019/07/inca-manco-capac.jpg",
+                    "gobernante" : "Manco Cápac, fue el primer gobernador y fundador de la cultura inca en cuzco. Es el protagonista de las dos leyendas más conocidas sobre el origen de los incas.",
+                    "img-construnciones" : "https://www.arcus-global.com/wp/wp-content/uploads/2017/06/Arquitectura-Inca-Arcus-Global-1.jpg",
+                    "construcciones" : "Los constructores lograron levantar grandes muros en los que las piedras empleadas encajaban a la perfección. Los ejemplos más sobresalientes de la arquitectura inca se encuentran en la zona de Cuzco, aunque también destacaron sus construcciones en Machu Picchu, Sacsayhuamán, Incallajta o Pisac.",
+                    "img-social" : "httpwa",
+                    "social" : "caciques blablabla",
+                    "img-vestuarios" : "httppp",
+                    "vestuarios" : "se vestian así  yasa",
+                    "img-dios-1" : "httppp",
+                    "dios1" : "este es el primer dios",
+                    "img-dios-2" : "httppp",
+                    "dios2" : "este es el dios 2",
+                    "img-dios-3" : "httppsp",
+                    "dios3" : "este es el dios 3",
+                    "mito" : "mitomitmotmomtio"
+                }
+            
+        },
+        {
+            "aztecas" : [
+                {
+                    "ruta" : "socialAztecas",
+                    "img-ubicacion" : "https://i.pinimg.com/originals/aa/de/89/aade899b4d05450584de8fa04354e6d8.png",
+                    "ubicacion" : "los aztecas estuvieron ubicados en México",
+                    "img-gobernante" : "httpdssd",
+                    "gobernante" : "pepito",
+                    "img-construnciones" : "httpdq",
+                    "construnciones" : "las casas eran así y asa",
+                    "img-social" : "httpwa",
+                    "social" : "caciques blablabla",
+                    "img-vestuarios" : "httppp",
+                    "vestuarios" : "se vestian así  yasa",
+                    "img-dios-1" : "httppp",
+                    "dios1" : "este es el primer dios",
+                    "img-dios-2" : "httppp",
+                    "dios2" : "este es el dios 2",
+                    "img-dios-3" : "httppsp",
+                    "dios3" : "este es el dios 3",
+                    "mito" : "mitomitmotmomtio"
+                }
+            ]
+        },  
+        {
+            "mayas" : [
+                {
+                    "ruta" : "socialMayas",
+                    "img-ubicacion" : "https://i.pinimg.com/474x/e5/2c/b6/e52cb6774a25e0070f29a62d8a2206c0.jpg",
+                    "ubicacion" : "los mayas estuvieron ubicados en guatemala, honduras y el salvador",
+                    "img-gobernante" : "httpdssd",
+                    "gobernante" : "pepito",
+                    "img-construnciones" : "httpdq",
+                    "construnciones" : "las casas eran así y asa",
+                    "img-social" : "httpwa",
+                    "social" : "caciques blablabla",
+                    "img-vestuarios" : "httppp",
+                    "vestuarios" : "se vestian así  yasa",
+                    "img-dios-1" : "httppp",
+                    "dios1" : "este es el primer dios",
+                    "img-dios-2" : "httppp",
+                    "dios2" : "este es el dios 2",
+                    "img-dios-3" : "httppsp",
+                    "dios3" : "este es el dios 3",
+                    "mito" : "mitomitmotmomtio"
+                }
+            ]
+            
+        }
+    ],
 
     "rutas" :[
         {
