@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:app_kids/src/providers/culturas_provider.dart';
 
-class Ubicacion extends StatelessWidget {
+class UbicacionAztecas extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
@@ -44,11 +44,14 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
         padding: new EdgeInsets.all(20.0),
         child: Column(
           children: [
-            FadeInImage(
-              image:NetworkImage(data.elementAt(0)['incas']['img-ubicacion']) ,
-              placeholder: AssetImage('assets/loading.gif'),
-              height: 500.0,
-              fit: BoxFit.fill
+            ClipRRect(
+            borderRadius: BorderRadius.all(Radius.circular(20.0)),
+            child: FadeInImage(
+                    image:NetworkImage(data.elementAt(0)['aztecas']['img-ubicacion']) ,
+                    placeholder: AssetImage('assets/loading.gif'),
+                    height: 500.0,
+                    fit: BoxFit.cover
+                    ) 
             ), 
             SizedBox(height: 20),
             Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
@@ -65,15 +68,18 @@ Widget _cardGobernante(List<dynamic> data, BuildContext context){
         padding: new EdgeInsets.all(20.0),
         child: Column(
           children: [
-            FadeInImage(
-              image:NetworkImage(data.elementAt(0)['incas']['img-gobernante']) ,
-              placeholder: AssetImage('assets/loading.gif'),
-              height: 500.0,
-              fit: BoxFit.fill
+            ClipRRect(
+            borderRadius: BorderRadius.all(Radius.circular(20.0)),
+            child: FadeInImage(
+                    image:NetworkImage(data.elementAt(0)['aztecas']['img-gobernante']) ,
+                    placeholder: AssetImage('assets/loading.gif'),
+                    height: 500.0,
+                    fit: BoxFit.cover
+                    )
             ), 
             SizedBox(height: 20),
             Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
-            Text(data.elementAt(0)['incas']['gobernante'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
+            Text(data.elementAt(0)['aztecas']['gobernante'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
       )    
@@ -86,17 +92,20 @@ Widget _cardConstruccion(List<dynamic> data, BuildContext context){
         padding: new EdgeInsets.all(20.0),
         child: Column(
           children: [
-            FadeInImage(
-              image:NetworkImage(data.elementAt(0)['incas']['img-construnciones']),
-              placeholder: AssetImage('assets/loading.gif'),
-              height: 500.0,
-              fit: BoxFit.fill
+            ClipRRect(
+            borderRadius: BorderRadius.all(Radius.circular(20.0)),
+            child: FadeInImage(
+                    image:NetworkImage(data.elementAt(0)['aztecas']['img-construnciones']),
+                    placeholder: AssetImage('assets/loading.gif'),
+                    height: 500.0,
+                    fit: BoxFit.cover
+                    )
             ), 
             SizedBox(height: 20),
             Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
-            Text(data.elementAt(0)['incas']['construcciones'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
+            Text(data.elementAt(0)['aztecas']['construcciones'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
-      )    
+      ) 
     );
 }

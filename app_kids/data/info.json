@@ -4,7 +4,6 @@
         {
             "incas" :
                 {   
-                    "ruta" : "incas",
                     "img-ubicacion" : "https://www.socialhizo.com/images/edad_antigua/incas/ubicacion-geografica/tahuantinsuyo.png",
                     "ubicacion" : "los incas estuvieron ubicados en America del sur",
                     "img-gobernante" : "https://historiadelperu.info/wp-content/uploads/2019/07/inca-manco-capac.jpg",
@@ -26,7 +25,7 @@
             
         },
         {
-            "aztecas" : [
+            "aztecas" : 
                 {
                     "ruta" : "aztecas",
                     "img-ubicacion" : "https://i.pinimg.com/originals/aa/de/89/aade899b4d05450584de8fa04354e6d8.png",
@@ -47,10 +46,10 @@
                     "dios3" : "este es el dios 3",
                     "mito" : "mitomitmotmomtio"
                 }
-            ]
+            
         },  
         {
-            "mayas" : [
+            "mayas" : 
                 {
                     "ruta" : "mayas",
                     "img-ubicacion" : "https://i.pinimg.com/474x/e5/2c/b6/e52cb6774a25e0070f29a62d8a2206c0.jpg",
@@ -71,8 +70,6 @@
                     "dios3" : "este es el dios 3",
                     "mito" : "mitomitmotmomtio"
                 }
-            ]
-            
         }
     ],
     "social" : [
@@ -151,35 +148,75 @@
         }
     ],
 
-    "rutas" :[
+    "rutasMenu" :[
         {
-            "ruta" : "Incas"
+            "ruta" : "Incas" 
         },
         {
-            "ruta" : "Azteca"          
+            "ruta" : "Aztecas" 
         },
         {
-            "ruta" : "Mayas"
-            
+            "ruta" : "Mayas" 
         }
     ],
 
-    "opciones" : [
-        {
+    "rutasIncas" : [      
+            {
+                "title" : "Ubicacion",
+                "ruta" : "ubicacion-incas"
+            }, 
+            {
+                "title" : "Social",
+                "ruta" : "social-incas"
+            },
+            {
+                "title" : "Dioses",
+                "ruta" : "dioses-incas"
+            },
+            {
+                "title" : "Reto",
+                "ruta" : "reto"
+            }      
+    ],
+
+    "rutasAztecas" : [
+        {       
+               
             "title" : "Ubicacion",
-            "ruta" : "Ubicacion"
+            "ruta" : "ubicacion-aztecas"
         },
         {
             "title" : "Social",
-            "ruta" : "Social"
+            "ruta" : "social-aztecas"
         },
         {
             "title" : "Dioses",
-            "ruta" : "Dioses"
+            "ruta" : "dioses-aztecas"
         },
         {
             "title" : "Reto",
-            "ruta" : "Reto"
+            "ruta" : "reto"
+        }
+    ],
+
+    "rutasMayas" : [
+        {       
+               
+            "title" : "Ubicacion",
+            "ruta" : "ubicacion-mayas"
+        },
+        {
+            "title" : "Social",
+            "ruta" : "social-mayas"
+        },
+        {
+            "title" : "Dioses",
+            "ruta" : "dioses-mayas"
+        },
+        {
+            "title" : "Reto",
+            "ruta" : "reto"
+
         }
     ]
 }
