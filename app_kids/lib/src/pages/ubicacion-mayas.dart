@@ -47,7 +47,7 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image:NetworkImage(data.elementAt(0)['mayas']['img-ubicacion']),
+                    image:NetworkImage(data.elementAt(0)['mayas']['img-ubicacion']) ,
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
