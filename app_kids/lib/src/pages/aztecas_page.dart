@@ -34,9 +34,8 @@ class AztecasPage extends StatelessWidget {
     );
 }
 
-  List<Widget> _crearBotones(List<dynamic> data, BuildContext context){
+ List<Widget> _crearBotones(List<dynamic> data, BuildContext context){
     final List<Widget> botones = [];
-
     data.forEach((element){
       final widgetTemp = RaisedButton(
               elevation: 5.0,

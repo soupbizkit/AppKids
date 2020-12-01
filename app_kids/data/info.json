@@ -7,8 +7,8 @@
                     "img-ubicacion" : "https://www.socialhizo.com/images/edad_antigua/incas/ubicacion-geografica/tahuantinsuyo.png",
                     "ubicacion" : "El imperio de los incas cubria alrededor de 2 millones de kilometros cuadrados incluyendo territorios de los actuales paíes de Ecuador, Perú, Bolivia, Chile y Argentina",
                     "img-gobernante" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDuVjvJUovGgGACuqx0GwVo3PFI4jIVI7K7w&usqp=CAU",
-                    "gobernante" : "Al gobernante de los incas le decian 'El INCA' quien creian que era el mismisimo hijo del Inti, dios del sol",
-                    "img-construnciones" : "https://i.pinimg.com/originals/af/d1/42/afd1425409dfbe0633933de0af94fb06.jpg",
+                    "gobernante" : "Pachacútec fue el gobernante Inca más destacado ya que fue quien inició la expansión del imperio tras salvar su tribu de un ataque.",
+                    "img-construcciones" : "https://i.pinimg.com/originals/af/d1/42/afd1425409dfbe0633933de0af94fb06.jpg",
                     "construcciones" : "Los incas fueron excelentes constructores. Debido a los terremotos, sus edificaciones estaban hechas de piedras labradas que encajaban perfectamente para mantenerlas firmes.",
                     "img-social" : "httpwa",
                     "social" : "caciques blablabla",
@@ -28,12 +28,12 @@
             "aztecas" : 
                 {
                     "ruta" : "aztecas",
-                    "img-ubicacion" : "https://i.pinimg.com/originals/aa/de/89/aade899b4d05450584de8fa04354e6d8.png",
+                    "img-ubicacion" : "https://lh3.googleusercontent.com/proxy/BC_AC2G1sxUtgzhJO60-eW1D4k5Mx61h2Zr9_VU5IHaQlk95VFrhR91VFF4HAKEmSGa5k-UkmvtauBh-cMcODwkuSoJD3j1Dxgfl4XTS8LS8PKBAb8aZQgLBxc5Ltg",
                     "ubicacion" : "los aztecas estuvieron ubicados en México",
-                    "img-gobernante" : "httpdssd",
+                    "img-gobernante" : "https://lh3.googleusercontent.com/proxy/BC_AC2G1sxUtgzhJO60-eW1D4k5Mx61h2Zr9_VU5IHaQlk95VFrhR91VFF4HAKEmSGa5k-UkmvtauBh-cMcODwkuSoJD3j1Dxgfl4XTS8LS8PKBAb8aZQgLBxc5Ltg",
                     "gobernante" : "pepito",
-                    "img-construnciones" : "httpdq",
-                    "construnciones" : "las casas eran así y asa",
+                    "img-construcciones" : "https://lh3.googleusercontent.com/proxy/BC_AC2G1sxUtgzhJO60-eW1D4k5Mx61h2Zr9_VU5IHaQlk95VFrhR91VFF4HAKEmSGa5k-UkmvtauBh-cMcODwkuSoJD3j1Dxgfl4XTS8LS8PKBAb8aZQgLBxc5Ltg",
+                    "construcciones" : "las casas eran así y asa",
                     "img-social" : "httpwa",
                     "social" : "caciques blablabla",
                     "img-vestuarios" : "httppp",
@@ -56,8 +56,8 @@
                     "ubicacion" : "los mayas estuvieron ubicados en guatemala, honduras y el salvador",
                     "img-gobernante" : "httpdssd",
                     "gobernante" : "pepito",
-                    "img-construnciones" : "httpdq",
-                    "construnciones" : "las casas eran así y asa",
+                    "img-construcciones" : "httpdq",
+                    "construcciones" : "las casas eran así y asa",
                     "img-social" : "httpwa",
                     "social" : "caciques blablabla",
                     "img-vestuarios" : "httppp",
@@ -73,7 +73,7 @@
         }
     ],
 
-    "rutasMenu" :[
+    "rutasMenu" : [
         {
             "ruta" : "Incas" 
         },
@@ -106,7 +106,6 @@
 
     "rutasAztecas" : [
         {       
-               
             "title" : "Ubicacion",
             "ruta" : "ubicacion-aztecas"
         },
@@ -126,7 +125,6 @@
 
     "rutasMayas" : [
         {       
-               
             "title" : "Ubicacion",
             "ruta" : "ubicacion-mayas"
         },

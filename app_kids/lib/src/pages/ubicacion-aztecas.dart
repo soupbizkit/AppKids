@@ -49,14 +49,14 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image:NetworkImage(data.elementAt(0)['aztecas']['img-ubicacion']) ,
+                    image:NetworkImage(data.elementAt(1)['aztecas']['img-ubicacion']) ,
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
                     ) 
             ), 
             SizedBox(height: 20),
-            Text(data.elementAt(0)['incas']['ubicacion'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
+            Text(data.elementAt(1)['aztecas']['ubicacion'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
       )    
@@ -74,14 +74,14 @@ Widget _cardGobernante(List<dynamic> data, BuildContext context){
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image:NetworkImage(data.elementAt(0)['aztecas']['img-gobernante']) ,
+                    image:NetworkImage(data.elementAt(1)['aztecas']['img-gobernante']) ,
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
                     )
             ), 
             SizedBox(height: 20), 
-            Text(data.elementAt(0)['aztecas']['gobernante'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
+            Text(data.elementAt(1)['aztecas']['gobernante'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
       )    
@@ -99,14 +99,14 @@ Widget _cardConstruccion(List<dynamic> data, BuildContext context){
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image:NetworkImage(data.elementAt(0)['aztecas']['img-construnciones']),
+                    image:NetworkImage(data.elementAt(1)['aztecas']['img-construcciones']),
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
                     )
             ), 
             SizedBox(height: 20),
-            Text(data.elementAt(0)['aztecas']['construcciones'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
+            Text(data.elementAt(1)['aztecas']['construcciones'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
       ) 
