@@ -38,10 +38,8 @@ class SocialMayas extends StatelessWidget {
   Widget _organizacionSocial(List<dynamic> data, BuildContext context){
     return Card(
       child: Column(children: [
-        Title(
-          color: Colors.black,
-          title: 'Organizazion de los mayas',
-          child: Text(data.elementAt(2)['mayas']['social'], style: TextStyle(color: Colors.black, fontSize: 20.0)),),
+        Text('Organizacion Social de los mayas',maxLines: 1,),
+        Text(data.elementAt(2)['mayas']['social']),
         FadeInImage(
           image:NetworkImage(data.elementAt(2)['mayas']['img-social']),
           placeholder: AssetImage('assets/loading.gif'),

@@ -52,12 +52,12 @@
             "mayas" : 
                 {
                     "ruta" : "mayas",
-                    "img-ubicacion" : "https://i.pinimg.com/474x/e5/2c/b6/e52cb6774a25e0070f29a62d8a2206c0.jpg",
-                    "ubicacion" : "los mayas estuvieron ubicados en guatemala, honduras y el salvador",
-                    "img-gobernante" : "httpdssd",
-                    "gobernante" : "pepito",
-                    "img-construnciones" : "httpdq",
-                    "construnciones" : "las casas eran así y asa",
+                    "img-ubicacion" : "https://upload.wikimedia.org/wikipedia/commons/7/7c/Mayas.png",
+                    "ubicacion" : "La civilización maya ocupó un extenso territorio que incluía el sureste de México y el norte de América Central; abarcó toda la península de Yucatán, la totalidad de Guatemala y Belice, así como la porción occidental de Honduras y El Salvador",
+                    "img-gobernante" : "https://alchetron.com/cdn/kinich-janaab-pakal-91f647c2-b0e1-4af9-bacd-4edb971a3c9-resize-750.jpeg",
+                    "gobernante" : "K'inich Yax K'uk' Mo', Fundador de la dinastía del gran centro urbano de Copán. Forjador del esplendor del señorío de Palenque, Chiapas, K'inich Janahb' Pakal II es un personaje emblemático del Clásico maya",
+                    "img-construnciones" : "https://www.nationalgeographic.com.es/medio/2018/02/28/templo-del-gran-jaguar-tikal-guatemala_5c6cb341_1280x851.jpg",
+                    "construnciones" : "las casas eran así y asagracias a sus conocimientos arquitectonicos pudieron construir cupulas y arcos , el templo del jaguar es una de sus construcciones importantes,las piramides fueron la construccion arquitectonica mas importante",
                     "img-social" : "httpwa",
                     "social" : "caciques blablabla",
                     "img-vestuarios" : "httppp",

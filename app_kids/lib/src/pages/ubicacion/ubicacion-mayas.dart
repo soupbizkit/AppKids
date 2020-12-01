@@ -47,7 +47,7 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image:NetworkImage(data.elementAt(0)['mayas']['img-ubicacion']) ,
+                    image:NetworkImage(data.elementAt(2)['mayas']['img-ubicacion']) ,
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
@@ -55,7 +55,7 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
             ), 
             SizedBox(height: 20),
             Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
-            Text(data.elementAt(0)['mayas']['ubicacion'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
+            Text(data.elementAt(2)['mayas']['ubicacion'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
       )    
@@ -71,7 +71,7 @@ Widget _cardGobernante(List<dynamic> data, BuildContext context){
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image:NetworkImage(data.elementAt(0)['mayas']['img-gobernante']) ,
+                    image:NetworkImage(data.elementAt(2)['mayas']['img-gobernante']) ,
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
@@ -79,7 +79,7 @@ Widget _cardGobernante(List<dynamic> data, BuildContext context){
             ), 
             SizedBox(height: 20),
             Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
-            Text(data.elementAt(0)['mayas']['gobernante'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
+            Text(data.elementAt(2)['mayas']['gobernante'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
       )    
@@ -95,7 +95,7 @@ Widget _cardConstruccion(List<dynamic> data, BuildContext context){
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image:NetworkImage(data.elementAt(0)['mayas']['img-construnciones']),
+                    image:NetworkImage(data.elementAt(2)['mayas']['img-construnciones']),
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
@@ -103,7 +103,7 @@ Widget _cardConstruccion(List<dynamic> data, BuildContext context){
             ), 
             SizedBox(height: 20),
             Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
-            Text(data.elementAt(0)['mayas']['construcciones'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
+            Text(data.elementAt(2)['mayas']['construcciones'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
       ) 
