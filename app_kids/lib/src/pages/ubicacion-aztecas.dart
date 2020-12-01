@@ -44,6 +44,8 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
         padding: new EdgeInsets.all(20.0),
         child: Column(
           children: [
+            Text('Territorio', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
+            SizedBox(height: 20),
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
@@ -54,7 +56,6 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
                     ) 
             ), 
             SizedBox(height: 20),
-            Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
             Text(data.elementAt(0)['incas']['ubicacion'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
@@ -68,6 +69,8 @@ Widget _cardGobernante(List<dynamic> data, BuildContext context){
         padding: new EdgeInsets.all(20.0),
         child: Column(
           children: [
+            Text('Gobernante', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
+            SizedBox(height: 20),
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
@@ -77,8 +80,7 @@ Widget _cardGobernante(List<dynamic> data, BuildContext context){
                     fit: BoxFit.cover
                     )
             ), 
-            SizedBox(height: 20),
-            Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
+            SizedBox(height: 20), 
             Text(data.elementAt(0)['aztecas']['gobernante'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
@@ -92,6 +94,8 @@ Widget _cardConstruccion(List<dynamic> data, BuildContext context){
         padding: new EdgeInsets.all(20.0),
         child: Column(
           children: [
+            Text('Construccion', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
+            SizedBox(height: 20),
             ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
@@ -102,7 +106,6 @@ Widget _cardConstruccion(List<dynamic> data, BuildContext context){
                     )
             ), 
             SizedBox(height: 20),
-            Text('Incas', textAlign: TextAlign.center, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0)),
             Text(data.elementAt(0)['aztecas']['construcciones'], style: TextStyle(color: Colors.black, fontSize: 20.0)) 
           ]
         )
