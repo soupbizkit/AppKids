@@ -9,6 +9,9 @@ import 'package:app_kids/src/pages/ubicacion/ubicacion-incas.dart';
 import 'package:app_kids/src/pages/ubicacion/ubicacion-aztecas.dart';
 import 'package:app_kids/src/pages/ubicacion/ubicacion-mayas.dart';
 import 'package:app_kids/src/pages/estructuraSocial/social_mayas.dart';
+import 'package:app_kids/src/pages/mitologia/mitologia-azteca.dart';
+import 'package:app_kids/src/pages/mitologia/mitologia-inca.dart';
+import 'package:app_kids/src/pages/mitologia/mitologia-maya.dart';
 
 Map <String, WidgetBuilder> getAppRoutes(){
   return <String, WidgetBuilder>{
@@ -19,7 +22,10 @@ Map <String, WidgetBuilder> getAppRoutes(){
         'ubicacion-incas' : (BuildContext context) => UbicacionIncas(),
         'ubicacion-aztecas' : (BuildContext context) => UbicacionAztecas(),
         'ubicacion-mayas' : (BuildContext context) => UbicacionMayas(),
-        'social-mayas' : (BuildContext context) => SocialMayas()
+        'social-mayas' : (BuildContext context) => SocialMayas(),
+        'mitologia-aztecas' : (BuildContext context) => MitologiaAzteca(),
+        'mitologia-incas' : (BuildContext context) => MitologiaInca(),
+        'mitologia-mayas' : (BuildContext context) => MitologiaMaya()
         /*'Dioses' : (BuildContext context) => DiosesPage(),
         'Reto'   : (BuildContext context) => RetoPage(),*/
   };
