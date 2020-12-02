@@ -1,3 +1,5 @@
+import 'package:app_kids/src/pages/estructuraSocial/social_aztecas.dart';
+import 'package:app_kids/src/pages/estructuraSocial/social_incas.dart';
 import 'package:flutter/material.dart';
 
 //propios 
@@ -19,7 +21,9 @@ Map <String, WidgetBuilder> getAppRoutes(){
         'ubicacion-incas' : (BuildContext context) => UbicacionIncas(),
         'ubicacion-aztecas' : (BuildContext context) => UbicacionAztecas(),
         'ubicacion-mayas' : (BuildContext context) => UbicacionMayas(),
-        'social-mayas' : (BuildContext context) => SocialMayas()
+        'social-mayas' : (BuildContext context) => SocialMayas(),
+        'social-incas' : (BuildContext context) => SocialIncas(),
+        'social-aztecas' : (BuildContext context) => SocialAztecas()
         /*'Dioses' : (BuildContext context) => DiosesPage(),
         'Reto'   : (BuildContext context) => RetoPage(),*/
   };

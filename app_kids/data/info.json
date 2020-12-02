@@ -13,6 +13,18 @@
                     "construcciones" : "Los incas fueron excelentes constructores. Debido a los terremotos, sus edificaciones estaban hechas de piedras labradas que encajaban perfectamente para mantenerlas firmes.",
                     "img-social" : "httpwa",
                     "social" : "caciques blablabla",
+                    "lista-clases" :[
+                        {
+                            "nombre" : "eliteinca",
+                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
+                            "imagen" : "https://c.files.bbci.co.uk/40BC/production/_102427561_gettyimages-821131424.jpg"
+                        },
+                        {
+                            "nombre" : "media inca",
+                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
+                            "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
+                        }
+                    ],
                     "img-vestuarios" : "httppp",
                     "vestuarios" : "se vestian así  yasa",
                     "img-dios-1" : "httppp",
@@ -37,6 +49,18 @@
                     "construcciones" : "Los aztecas crearon sus construcciones encima de un lago con tierra y caña, creando así pequeñas islas artificiales donde subian sus edificios.",
                     "img-social" : "httpwa",
                     "social" : "caciques blablabla",
+                    "lista-clases" :[
+                        {
+                            "nombre" : "elite aztecas",
+                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
+                            "imagen" : "https://c.files.bbci.co.uk/40BC/production/_102427561_gettyimages-821131424.jpg"
+                        },
+                        {
+                            "nombre" : "media azteca",
+                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
+                            "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
+                        }
+                    ],
                     "img-vestuarios" : "httppp",
                     "vestuarios" : "se vestian así  yasa",
                     "img-dios-1" : "httppp",
@@ -60,7 +84,19 @@
                 "img-construcciones" : "https://www.nationalgeographic.com.es/medio/2018/02/28/templo-del-gran-jaguar-tikal-guatemala_5c6cb341_1280x851.jpg",
                 "construcciones" : "Gracias a sus conocimientos arquitectonicos pudieron construir cupulas y arcos , el templo del jaguar es una de sus construcciones importantes",
                 "img-social" : "httpwa",
-                "social" : "caciques blablabla",
+                "social" : "caciques blablabladddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+                "lista-clases" :[
+                        {
+                            "nombre" : "elite o almenehoob",
+                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
+                            "imagen" : "https://c.files.bbci.co.uk/40BC/production/_102427561_gettyimages-821131424.jpg"
+                        },
+                        {
+                            "nombre" : "media",
+                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
+                            "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
+                        }
+                ],
                 "img-vestuarios" : "httppp",
                 "vestuarios" : "se vestian así  yasa",
                 "img-dios-1" : "httppp",

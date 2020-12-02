@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 import 'package:app_kids/src/providers/culturas_provider.dart';
 
-class SocialMayas extends StatefulWidget {
+class SocialIncas extends StatefulWidget {
   @override
-  SocialMayasState createState() => SocialMayasState();
+  SocialIncasState createState() => SocialIncasState();
 }
 
-class SocialMayasState extends State<SocialMayas>{
+class SocialIncasState extends State<SocialIncas>{
   String _actualContainer = '';
   
   @override
@@ -45,10 +45,10 @@ class SocialMayasState extends State<SocialMayas>{
   Widget _organizacionSocial(List<dynamic> data, BuildContext context){
     return Card(
       child: Column(children: [
-        Text('Organizacion Social de los mayas',maxLines: 1,),
-        Text(data.elementAt(2)['mayas']['social']),
+        Text('Organizacion Social de los incas',maxLines: 1,),
+        Text(data.elementAt(0)['incas']['social']),
         FadeInImage(
-          image:NetworkImage(data.elementAt(2)['mayas']['img-social']),
+          image:NetworkImage(data.elementAt(0)['incas']['img-social']),
           placeholder: AssetImage('assets/loading.gif'),
           height: 350,
           fit: BoxFit.cover)
@@ -68,7 +68,7 @@ class SocialMayasState extends State<SocialMayas>{
   }
   List<Widget> _containerClases(List<dynamic> data, BuildContext context){
     final List<Widget> opciones = [];
-    final List<dynamic> clases = data.elementAt(2)['mayas']['lista-clases'];
+    final List<dynamic> clases = data.elementAt(0)['incas']['lista-clases'];
     clases.forEach((element) {
       final containerTemporal = Container(
         child: Row(
