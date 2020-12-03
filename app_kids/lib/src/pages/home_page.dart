@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
                 strokeColor: Colors.black,
                 child: Text(
                   'América Precolombina',
-                   style: TextStyle(
+                  style: TextStyle(
                   color: Colors.white))), 
               ), //AppBar
               body: _botones(),

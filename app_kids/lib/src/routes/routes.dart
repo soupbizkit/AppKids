@@ -19,7 +19,7 @@ Map <String, WidgetBuilder> getAppRoutes(){
         'ubicacion-incas' : (BuildContext context) => UbicacionIncas(),
         'ubicacion-aztecas' : (BuildContext context) => UbicacionAztecas(),
         'ubicacion-mayas' : (BuildContext context) => UbicacionMayas(),
-        'social-mayas' : (BuildContext context) => SocialMayas(),
+        'social-mayas' : (BuildContext context) => SocialMayas()
         /*'Dioses' : (BuildContext context) => DiosesPage(),
         'Reto'   : (BuildContext context) => RetoPage(),*/
   };

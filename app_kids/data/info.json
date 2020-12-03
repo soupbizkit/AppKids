@@ -4,6 +4,7 @@
         {
             "incas" :
                 {   
+                    "ruta" : "incas",
                     "img-ubicacion" : "https://www.socialhizo.com/images/edad_antigua/incas/ubicacion-geografica/tahuantinsuyo.png",
                     "ubicacion" : "El imperio de los incas cubria alrededor de 2 millones de kilometros cuadrados incluyendo territorios de los actuales paíes de Ecuador, Perú, Bolivia, Chile y Argentina",
                     "img-gobernante" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDuVjvJUovGgGACuqx0GwVo3PFI4jIVI7K7w&usqp=CAU",
@@ -50,26 +51,26 @@
         },  
         {
             "mayas" : 
-                {
-                    "ruta" : "mayas",
-                    "img-ubicacion" : "https://i.pinimg.com/474x/e5/2c/b6/e52cb6774a25e0070f29a62d8a2206c0.jpg",
-                    "ubicacion" : "los mayas estuvieron ubicados en guatemala, honduras y el salvador",
-                    "img-gobernante" : "httpdssd",
-                    "gobernante" : "pepito",
-                    "img-construcciones" : "httpdq",
-                    "construcciones" : "las casas eran así y asa",
-                    "img-social" : "httpwa",
-                    "social" : "caciques blablabla",
-                    "img-vestuarios" : "httppp",
-                    "vestuarios" : "se vestian así  yasa",
-                    "img-dios-1" : "httppp",
-                    "dios1" : "este es el primer dios",
-                    "img-dios-2" : "httppp",
-                    "dios2" : "este es el dios 2",
-                    "img-dios-3" : "httppsp",
-                    "dios3" : "este es el dios 3",
-                    "mito" : "mitomitmotmomtio"
-                }
+            {
+                "ruta" : "mayas",
+                "img-ubicacion" : "https://culturamaya.info/wp-content/uploads/2018/04/maya-mapa-actual.png",
+                "ubicacion" : "Ocuparon el sur de mexico guatemela belice el este de honduras y el norte del salvador",
+                "img-gobernante" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg",
+                "gobernante" : "K inich Yax Kuk Mo, Fundador de la dinastía del gran centro urbano de Copán. Forjador del esplendor del señorío de Palenque, Chiapas, K inich Janahb Pakal II es un personaje emblemático del Clásico maya.",
+                "img-construcciones" : "https://www.nationalgeographic.com.es/medio/2018/02/28/templo-del-gran-jaguar-tikal-guatemala_5c6cb341_1280x851.jpg",
+                "construcciones" : "Gracias a sus conocimientos arquitectonicos pudieron construir cupulas y arcos , el templo del jaguar es una de sus construcciones importantes",
+                "img-social" : "httpwa",
+                "social" : "caciques blablabla",
+                "img-vestuarios" : "httppp",
+                "vestuarios" : "se vestian así  yasa",
+                "img-dios-1" : "httppp",
+                "dios1" : "este es el primer dios",
+                "img-dios-2" : "httppp",
+                "dios2" : "este es el dios 2",
+                "img-dios-3" : "httppsp",
+                "dios3" : "este es el dios 3",
+                "mito" : "mitomitmotmomtio"
+            }
         }
     ],
 
@@ -140,7 +141,6 @@
         {
             "title" : "Reto",
             "ruta" : "reto"
-
         }
     ]
 }
