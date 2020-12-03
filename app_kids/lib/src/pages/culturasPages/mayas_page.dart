@@ -18,12 +18,12 @@ class MayasPage extends StatelessWidget {
             appBar: AppBar(
                     backgroundColor: Colors.green[200],
                     title: BorderedText( 
-                strokeWidth: 3.0,
-                strokeColor: Colors.black,
-                child: Text(
-                  'Mayas',
-                  style: TextStyle(
-                  color: Colors.white))),  
+                      strokeWidth: 3.0,
+                      strokeColor: Colors.black,
+                      child: Text(
+                        'Mayas',
+                        style: TextStyle(
+                        color: Colors.white))),  
             ), //AppBar
             body: Center(
             child: _botones()
