@@ -38,14 +38,9 @@ class MitologiaAzteca extends StatelessWidget {
           return ListView(
             padding: EdgeInsets.all(20.0),
             children: [
-              _slimyCardDios1(snapshot.data, contex),
-              SizedBox(height: 20),
-              _slimyCardDios2(snapshot.data, contex),
-              SizedBox(height: 20),
-              _slimyCardDios3(snapshot.data, contex),
-              SizedBox(height: 20),
+              _slimyCardDioses(snapshot.data, contex),
               _slimyCardMito(snapshot.data, contex)
-            ] 
+            ]
           );
         }else{
           print('waiting');
@@ -56,32 +51,33 @@ class MitologiaAzteca extends StatelessWidget {
   }
 }
 
-Widget _slimyCardDios1(List<dynamic> data, BuildContext context){
-  return SlimyCard(
-    color: Colors.deepOrange[200],
-    topCardWidget: _customTopPrimerDios(data, context),
-    bottomCardHeight: 200,
-    bottomCardWidget: _customBotPrimerDios(data, context),
+Widget _slimyCardDioses(List<dynamic> data, BuildContext context){
+  return Container(
+    child: Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Column(
+        children: _listDioses(data, context)),
+      ),
   );
 }
 
-Widget _slimyCardDios2(List<dynamic> data, BuildContext context){
-  return SlimyCard(
-    color: Colors.deepOrange[200],
-    topCardWidget: _customTopSegundoDios(data, context),
-    bottomCardHeight: 200,
-    bottomCardWidget: _customBotSegundoDios(data, context),
+List<Widget> _listDioses(List<dynamic> data, BuildContext context){
+  final List<Widget> opciones = [];
+  final List<dynamic> dioses = data.elementAt(1)['aztecas']['lista-dioses'];
+  dioses.forEach((element) {
+    final slimyActual = SlimyCard(
+      color: Colors.deepOrange[200],
+      topCardWidget: _customTop(element),
+      bottomCardHeight: 200,
+      bottomCardWidget: _customBot(element),
+      );
+    opciones.add(Divider(color: Colors.white));
+    opciones.add(slimyActual);
+    }
   );
+  return opciones;
 }
 
-Widget _slimyCardDios3(List<dynamic> data, BuildContext context){
-  return SlimyCard(
-    color: Colors.deepOrange[200],
-    topCardWidget: _customTopTercerDios(data, context),
-    bottomCardHeight: 200,
-    bottomCardWidget: _customBotTercerDios(data, context),
-  );
-}
 
 Widget _slimyCardMito(List<dynamic> data, BuildContext context){
   return SlimyCard(
@@ -93,16 +89,17 @@ Widget _slimyCardMito(List<dynamic> data, BuildContext context){
   );
 }
 
-
-Widget _customTopPrimerDios(List<dynamic> data, BuildContext context){
+Widget _customTop(dynamic element){
+  String _image = element['img-dios'];
+  String _titulo = element['nombre-dios'];
   return Container(
     child: Column(
       children: [
-        Text(data.elementAt(1)['aztecas']['nombre-dios1'],style: TextStyle(color: Colors.black, fontSize: 20.0)),
+        Text(_titulo,style: TextStyle(color: Colors.black, fontSize: 20.0)),
         ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
-                    image: NetworkImage(data.elementAt(1)['aztecas']['img-dios-1']), 
+                    image: NetworkImage(_image), 
                     placeholder: AssetImage('assets/loading.gif'),
                     height: 250,
                     fit: BoxFit.cover
@@ -113,73 +110,17 @@ Widget _customTopPrimerDios(List<dynamic> data, BuildContext context){
   );
 }
 
-Widget _customBotPrimerDios(List<dynamic> data, BuildContext context){
+Widget _customBot(dynamic element){
+    String _descripcion = element['dios'];
   return Container(
     child: Column(
       children: [
-        Text(data.elementAt(1)['aztecas']['dios1'],style: TextStyle(color: Colors.black, fontSize: 20.0)),
+        Text(_descripcion,style: TextStyle(color: Colors.black, fontSize: 20.0)),
       ]
     )
   );
 }
 
-Widget _customTopSegundoDios(List<dynamic> data, BuildContext context){
-  return Container(
-    child: Column(
-      children: [
-        Text(data.elementAt(1)['aztecas']['nombre-dios2'],style: TextStyle(color: Colors.black, fontSize: 20.0)),
-        ClipRRect(
-            borderRadius: BorderRadius.all(Radius.circular(20.0)),
-            child: FadeInImage(
-                    image: NetworkImage(data.elementAt(1)['aztecas']['img-dios-2']), 
-                    placeholder: AssetImage('assets/loading.gif'),
-                    height: 250,
-                    fit: BoxFit.cover
-                    ) 
-            ),
-      ]
-    )
-  );
-}
-
-Widget _customBotSegundoDios(List<dynamic> data, BuildContext context){
-  return Container(
-    child: Column(
-      children: [
-        Text(data.elementAt(1)['aztecas']['dios2'],style: TextStyle(color: Colors.black, fontSize: 20.0)),
-      ]
-    )
-  );
-}
-
-Widget _customTopTercerDios(List<dynamic> data, BuildContext context){
-  return Container(
-    child: Column(
-      children: [
-        Text(data.elementAt(1)['aztecas']['nombre-dios3'],style: TextStyle(color: Colors.black, fontSize: 20.0)),
-        ClipRRect(
-            borderRadius: BorderRadius.all(Radius.circular(20.0)),
-            child: FadeInImage(
-                    image: NetworkImage(data.elementAt(1)['aztecas']['img-dios-3']), 
-                    placeholder: AssetImage('assets/loading.gif'),
-                    height: 250,
-                    fit: BoxFit.cover
-                    ) 
-            ),
-      ]
-    )
-  );
-}
-
-Widget _customBotTercerDios(List<dynamic> data, BuildContext context){
-  return Container(
-    child: Column(
-      children: [
-        Text(data.elementAt(1)['aztecas']['dios3'],style: TextStyle(color: Colors.black, fontSize: 20.0)),
-      ]
-    )
-  );
-}
 
 Widget _customTopMito(List<dynamic> data, BuildContext context){
   return Container(

@@ -15,15 +15,23 @@
                     "social" : "caciques blablabla",
                     "img-vestuarios" : "httppp",
                     "vestuarios" : "se vestian así  yasa",
-                    "img-dios-1" : "httppp",
-                    "nombre-dios1":"vcv",
-                    "dios1" : "este es el primer dios",
-                    "img-dios-2" : "httppp",
-                    "nombre-dios2":"vcv",
-                    "dios2" : "este es el dios 2",
-                    "img-dios-3" : "httppsp",
-                    "nombre-dios3":"vcv",
-                    "dios3" : "este es el dios 3",
+                    "lista-dioses" :[
+                        {
+                            "img-dios" : "https://mxcity.mx/wp-content/uploads/2020/05/yacatecuhtli-1.jpg",
+                            "nombre-dios":"Yacatecuhtli",
+                            "dios" : "Representaba la protección para mercaderes y viajeros, y por esa razón los ciudadanos le hacían ofrendas regalándole esclavos a cambio de su bendición. Lo que destaca de esta deidad es la desproporción de su nariz, que servía como guía."    
+                        },
+                        {
+                            "img-dios" : "https://i.pinimg.com/originals/7b/3d/f1/7b3df16194f440edb098bff1fdda698f.jpg",
+                            "nombre-dios":"Quetzalcóatl",
+                            "dios" : "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba."
+                        },
+                        {
+                            "img-dios" : "https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/coatlicue-completa-550.jpg",
+                            "nombre-dios":"Coatlicue",
+                            "dios" : "Puto tenía forma de serpiente con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses."         
+                        }
+                    ],
                     "nombre-mito":"Mito de la Creación",
                     "mito" : "mitomitmotmomtio"
                 }
@@ -43,15 +51,23 @@
                     "social" : "caciques blablabla",
                     "img-vestuarios" : "httppp",
                     "vestuarios" : "se vestian así  yasa",
-                    "img-dios-1" : "https://mxcity.mx/wp-content/uploads/2020/05/yacatecuhtli-1.jpg",
-                    "nombre-dios1":"Yacatecuhtli",
-                    "dios1" : "Representaba la protección para mercaderes y viajeros, y por esa razón los ciudadanos le hacían ofrendas regalándole esclavos a cambio de su bendición. Lo que destaca de esta deidad es la desproporción de su nariz, que servía como guía.",
-                    "img-dios-2" : "https://i.pinimg.com/originals/7b/3d/f1/7b3df16194f440edb098bff1fdda698f.jpg",
-                    "nombre-dios2":"Quetzalcóatl",
-                    "dios2" : "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba.",
-                    "img-dios-3" : "https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/coatlicue-completa-550.jpg",
-                    "nombre-dios3":"Coatlicue",
-                    "dios3" : "Coatlicue tenía forma de serpiente con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses.",
+                    "lista-dioses" :[
+                        {
+                            "img-dios" : "https://mxcity.mx/wp-content/uploads/2020/05/yacatecuhtli-1.jpg",
+                            "nombre-dios":"Yacatecuhtli",
+                            "dios" : "Representaba la protección para mercaderes y viajeros, y por esa razón los ciudadanos le hacían ofrendas regalándole esclavos a cambio de su bendición. Lo que destaca de esta deidad es la desproporción de su nariz, que servía como guía."    
+                        },
+                        {
+                            "img-dios" : "https://i.pinimg.com/originals/7b/3d/f1/7b3df16194f440edb098bff1fdda698f.jpg",
+                            "nombre-dios":"Quetzalcóatl",
+                            "dios" : "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba."
+                        },
+                        {
+                            "img-dios" : "https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/coatlicue-completa-550.jpg",
+                            "nombre-dios":"Coatlicue",
+                            "dios" : "Coatlicue tenía forma de serpiente con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses."         
+                        }
+                    ],
                     "nombre-mito":"Mito de la Creación",
                     "mito" : "Los dioses Tezcatlipoca y Quetzalcóatl se dan cuenta de que los dioses se sienten vacíos y necesitan compañía. Por ello necesitan crear la tierra. Existía solo un inmenso mar, donde vivía el monstruo de la tierra. Para atraerlo, Tezcatlipoca ofrece su pie como carnada y el monstruo sale y se lo come. Antes de que se pueda sumergir, los dos dioses lo toman, lo estiran para dar a la tierra su forma. Sus ojos se convierten en lagunas, sus lágrimas en ríos, sus orificios en cuevas. Después de eso, le dan el don de la vegetación para confortar su dolor. Y posteriormente se dieron a la tarea de crear a los primeros hombres."
                 }
@@ -71,17 +87,25 @@
                 "social" : "caciques blablabla",
                 "img-vestuarios" : "httppp",
                 "vestuarios" : "se vestian así  yasa",
-                "img-dios-1" : "httppp",
-                "nombre-dios1":"vcv",
-                "dios1" : "este es el primer dios",
-                "img-dios-2" : "httppp",
-                "nombre-dios2":"vcv",
-                "dios2" : "este es el dios 2",
-                "img-dios-3" : "httppsp",
-                "nombre-dios3":"vcv",
-                "dios3" : "este es el dios 3",
+                "lista-dioses" :[
+                    {
+                        "img-dios" : "https://mxcity.mx/wp-content/uploads/2020/05/yacatecuhtli-1.jpg",
+                        "nombre-dios":"Yacatecuhtli",
+                        "dios" : "putotes la protección para mercaderes y viajeros, y por esa razón los ciudadanos le hacían ofrendas regalándole esclavos a cambio de su bendición. Lo que destaca de esta deidad es la desproporción de su nariz, que servía como guía."    
+                    },
+                    {
+                        "img-dios" : "https://i.pinimg.com/originals/7b/3d/f1/7b3df16194f440edb098bff1fdda698f.jpg",
+                        "nombre-dios":"Quetzalcóatl",
+                        "dios" : "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba."
+                    },
+                    {
+                        "img-dios" : "https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/coatlicue-completa-550.jpg",
+                        "nombre-dios":"Coatlicue",
+                        "dios" : "Coatlicue tenía forma de serpiente con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses."         
+                    }
+                ],
                 "nombre-mito":"Mito de la Creación",
-                "mito" : "mitomitmotmomtio"
+                "mito" : "putitos"
             }
             
         }
