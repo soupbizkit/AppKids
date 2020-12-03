@@ -1,3 +1,4 @@
+import 'package:bordered_text/bordered_text.dart';
 import 'package:flutter/material.dart';
 
 import 'package:app_kids/src/providers/culturas_provider.dart';
@@ -12,14 +13,28 @@ class SocialAztecasState extends State<SocialAztecas>{
   
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.green[100],
-      appBar: AppBar(
-        backgroundColor: Colors.yellow[700],
-        title: Text('Estructura Social')
-      ),
-      body: _estructuraSocial()  
-      );
+    return Stack(
+      children: <Widget>[
+        Image.asset("assets/imagenFondo.jpg",
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
+          fit: BoxFit.cover),
+        Scaffold(
+          backgroundColor: Colors.transparent,
+          appBar: AppBar(
+            backgroundColor: Colors.green[200],
+            title: BorderedText( 
+                  strokeWidth: 3.0,
+                  strokeColor: Colors.black,
+                  child: Text(
+                    'Organizacion social',
+                    style: TextStyle(
+                    color: Colors.white))),
+          ),
+          body: _estructuraSocial()  
+        )
+      ]
+    );
   }
 
   Widget _estructuraSocial(){
@@ -45,7 +60,7 @@ class SocialAztecasState extends State<SocialAztecas>{
   Widget _organizacionSocial(List<dynamic> data, BuildContext context){
     return Card(
       child: Column(children: [
-        Text('Organizacion Social de los incas',maxLines: 1,),
+        Text('Organizacion Social de los incas',maxLines: 1,style: TextStyle(fontSize: 18)),
         Text(data.elementAt(1)['aztecas']['social']),
         FadeInImage(
           image:NetworkImage(data.elementAt(1)['aztecas']['img-social']),
@@ -83,7 +98,7 @@ class SocialAztecasState extends State<SocialAztecas>{
               child: Column(
                 children: [
                   Text(element['nombre'],textAlign: TextAlign.center,style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
-                  Text(element['descripcion'],textAlign: TextAlign.center,)
+                  Text(element['descripcion'],textAlign: TextAlign.center,style: TextStyle(fontSize: 14,fontWeight: FontWeight.bold))
                 ],
               ),
             )

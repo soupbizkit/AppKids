@@ -95,10 +95,15 @@
                             "nombre" : "media",
                             "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
                             "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
+                        },
+                        {
+                            "nombre" : "baja",
+                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
+                            "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
                         }
                 ],
-                "img-vestuarios" : "httppp",
-                "vestuarios" : "se vestian así  yasa",
+                "img-vestuarios" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg",
+                "vestuarios" : "la vestimenta maya se diseñaba solo para cubrir el cuerpo y eran sostenidas por cinturones hechos de tela, o simplemente protegían las partes íntimas.",
                 "img-dios-1" : "httppp",
                 "dios1" : "este es el primer dios",
                 "img-dios-2" : "httppp",
