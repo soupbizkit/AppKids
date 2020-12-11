@@ -19,7 +19,7 @@ class PageNotFound extends StatelessWidget {
       ), //AppBar
       body: Center(
         child: Image.asset(
-          "assets/notFound.gif",
+          "asset/notFound.gif",
         ),//Text('The page you are trying to reach does not exist', style: TextStyle(fontSize: 30)),
       )
     );

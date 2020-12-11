@@ -14,7 +14,7 @@ class SocialMayasState extends State<SocialMayas>{
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-        Image.asset("assets/imagenFondo.jpg",
+        Image.asset("asset/imagenFondo.jpg",
           height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
           fit: BoxFit.cover),
@@ -63,7 +63,7 @@ class SocialMayasState extends State<SocialMayas>{
         Text(data.elementAt(2)['mayas']['social']),
         FadeInImage(
           image:NetworkImage(data.elementAt(2)['mayas']['img-social']),
-          placeholder: AssetImage('assets/loading.gif'),
+          placeholder: AssetImage('asset/loading.gif'),
           height: 350,
           fit: BoxFit.cover)
       ])
@@ -89,7 +89,7 @@ class SocialMayasState extends State<SocialMayas>{
           children: [
             FadeInImage(
             image:NetworkImage(element['imagen']),
-            placeholder: AssetImage('assets/loading.gif'),
+            placeholder: AssetImage('asset/loading.gif'),
             height: 150,
             width: 120,
             fit: BoxFit.cover),

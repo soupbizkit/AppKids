@@ -14,6 +14,7 @@ import 'package:app_kids/src/pages/estructuraSocial/social_mayas.dart';
 import 'package:app_kids/src/pages/mitologia/mitologia-azteca.dart';
 import 'package:app_kids/src/pages/mitologia/mitologia-inca.dart';
 import 'package:app_kids/src/pages/mitologia/mitologia-maya.dart';
+import 'package:app_kids/src/pages/retoPage/reto_page.dart';
 
 Map <String, WidgetBuilder> getAppRoutes(){
   return <String, WidgetBuilder>{
@@ -29,8 +30,8 @@ Map <String, WidgetBuilder> getAppRoutes(){
         'social-aztecas' : (BuildContext context) => SocialAztecas(),
         'mitologia-aztecas' : (BuildContext context) => MitologiaAzteca(),
         'mitologia-incas' : (BuildContext context) => MitologiaInca(),
-        'mitologia-mayas' : (BuildContext context) => MitologiaMaya()
-        //'Reto'   : (BuildContext context) => RetoPage(),
+        'mitologia-mayas' : (BuildContext context) => MitologiaMaya(),
+        'reto'   : (BuildContext context) => MyReto(),
         
   };
 
