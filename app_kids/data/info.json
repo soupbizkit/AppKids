@@ -69,22 +69,37 @@
                     "gobernante" : "El tlaotani era como llamaban a su emperador y era elegido por un consejo integrado por representantes de los clanes, siendo Moctezuma I uno de los más importantes.",
                     "img-construcciones" : "https://pueblodelalunametzitzin.files.wordpress.com/2019/04/la-gran-tenochtitlan.jpg",
                     "construcciones" : "Los aztecas crearon sus construcciones encima de un lago con tierra y caña, creando así pequeñas islas artificiales donde subian sus edificios.",
-                    "img-social" : "httpwa",
-                    "social" : "caciques blablabla",
+                    "img-social" : "https://www.cultura-azteca.com/wp-content/uploads/2017/01/organizacion-social-azteca.jpg",
+                    "social" : "Ciertamente la cultura azteca no pugnaba por la igualdad social, su estructura y división social estaba justificada a partir de una cosmovisión teológica.",
                     "lista-clases" :[
                         {
-                            "nombre" : "elite aztecas",
-                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
-                            "imagen" : "https://c.files.bbci.co.uk/40BC/production/_102427561_gettyimages-821131424.jpg"
+                            "nombre" : "Huey tlatoani",
+                            "descripcion" : "Era el máximo gobernante, con funciones tanto militares como religiosas.",
+                            "imagen" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Moctezuma_II.jpg/220px-Moctezuma_II.jpg"
                         },
                         {
-                            "nombre" : "media azteca",
-                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
-                            "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
+                            "nombre" : "Pipiltin",
+                            "descripcion" : "Era un tipo de nobleza cuya descendencia venía de los toltecas. Poseían tierras y esclavos para trabajarlas. Los sacerdotes de mayor rango y los guerreros de mayor categoría formaban parte de los pipiltin.",
+                            "imagen" : "https://mxcity.mx/wp-content/uploads/2017/08/imperio.jpg"
+                        },
+                        {
+                            "nombre" : "Pochtecas",
+                            "descripcion" : "Su labor era importantísima pues gracias a ella los mercados (como el de Tlatelolco) proveeían de productos traídos incluso de Guatemala.",
+                            "imagen" : "https://upload.wikimedia.org/wikipedia/commons/6/63/Pochtecas_con_su_carga.JPG"
+                        },
+                        {
+                            "nombre" : "Macehualtin",
+                            "descripcion" : "Era la gente del pueblo; la gran mayoría. Estaban obligados a hacer servicio militar. Trabajaban la tierra o las artesanías y pagaban tributo.",
+                            "imagen" : "https://sites.google.com/site/civilizacionesperdidas/_/rsrc/1472876080191/civilizaciones-precolombinas/aztecas/sociedad/codex_florentina_farmer.jpg?height=420&width=383"
+                        },
+                        {
+                            "nombre" : "Tlatlacotin",
+                            "descripcion" : "como no existía el ganado de carga, estos eran los esclavos a los cuales se les imponía el trabajo más duro. La mayoría venían de las conquistas, podían llegar a comprar su libertad.",
+                            "imagen" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8dximMKRx3OpooiKPCguXXVlJYRQpsZ7s3w&usqp=CAU"
                         }
                     ],
-                    "img-vestuarios" : "httppp",
-                    "vestuarios" : "se vestian así  yasa",
+                    "img-vestuarios" : "https://www.cultura10.org/wp-content/uploads/2018/05/VESTIMENTA-AZTECA.jpg",
+                    "vestuarios" : "En términos generales, se puede decir que hicieron uso de pieles de animales, pigmentos vegetales, plumas y oro. Estos dos últimos elementos, eran de uso exclusivo de las capas sociales más altas, la nobleza.",
                     "lista-dioses" :[
                         {
                             "img-dios" : "https://mxcity.mx/wp-content/uploads/2020/05/yacatecuhtli-1.jpg",
