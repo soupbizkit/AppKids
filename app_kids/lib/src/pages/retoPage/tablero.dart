@@ -27,15 +27,15 @@ class CardBoardState extends State<CardBoard> {
 
   List<CardModel> createCards() {
     List<String> asset = [];
-    List(20).forEach((f) => asset.add('0${(asset.length + 1)}.jpg'));
-    List(20).forEach((f) => asset.add('0${(asset.length - 20 + 1)}.jpg'));
-    return List(40).map((f) {
+    List(12).forEach((f) => asset.add('0${(asset.length + 1)}.jpg'));
+    List(12).forEach((f) => asset.add('0${(asset.length - 12 + 1)}.jpg'));
+    return List(24).map((f) {
       int index = Random().nextInt(1000) % asset.length;
       String _image =
           'asset/' + asset[index].substring(asset[index].length - 6);
       asset.removeAt(index);
       return CardModel(
-          id: 40 - asset.length - 1, image: _image, key: UniqueKey());
+          id: 24 - asset.length - 1, image: _image, key: UniqueKey());
     }).toList();
   }
 
