@@ -39,28 +39,26 @@ class RetoState extends State<Reto> {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-        backgroundColor: Colors.black87,
-        body: Container(
-          decoration: BoxDecoration(
-              gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: [
-                Colors.black87,
-                Colors.black87,
-                Colors.orange,
-                Colors.black87,
-                Colors.black87
-              ])),
-          child: Column(
-            children: <Widget>[
-              SizedBox(height: 24.0),
-              buildScore(),
-              buildBoard()
-            ],
-          ),
-        ));
+    return Stack(
+      children: <Widget>[
+        Image.asset("asset/imagenFondo.jpg",
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
+          fit: BoxFit.cover),
+        Scaffold(
+            backgroundColor: Colors.transparent,
+            body: Container(
+              child: Column(
+                children: <Widget>[
+                  SizedBox(height: 24.0),
+                  buildScore(),
+                  buildBoard()
+                ],
+              ),
+            )
+        )
+      ]
+    );
   }
 
   Widget buildScore() {
@@ -72,12 +70,12 @@ class RetoState extends State<Reto> {
           Text(time.toString() + "s",
               style: TextStyle(
                   fontSize: 32.0,
-                  color: Colors.yellowAccent,
+                  color: Colors.black,
                   fontFamily: 'GamjaFlower')),
           Text(score.toString(),
               style: TextStyle(
                   fontSize: 32.0,
-                  color: Colors.yellowAccent,
+                  color: Colors.black,
                   fontFamily: 'GamjaFlower'))
         ],
       ),
