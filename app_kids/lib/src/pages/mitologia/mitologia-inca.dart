@@ -36,7 +36,7 @@ class MitologiaInca extends StatelessWidget {
       builder: (BuildContext contex, AsyncSnapshot<List<dynamic>> snapshot) {
         if(snapshot.connectionState == ConnectionState.done){
           return ListView(
-            padding: EdgeInsets.all(20.0),
+            padding: EdgeInsets.all(5.0),
             children: [
               _slimyCardDioses(snapshot.data, contex),
               _slimyCardMito(snapshot.data, contex)
@@ -54,7 +54,7 @@ class MitologiaInca extends StatelessWidget {
 Widget _slimyCardDioses(List<dynamic> data, BuildContext context){
   return Container(
     child: Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(10.0),
       child: Column(
         children: _listDioses(data, context)),
       ),
@@ -66,7 +66,7 @@ List<Widget> _listDioses(List<dynamic> data, BuildContext context){
   final List<dynamic> dioses = data.elementAt(0)['incas']['lista-dioses'];
   dioses.forEach((element) {
     final slimyActual = SlimyCard(
-      color: Colors.deepOrange[200],
+      color: Colors.deepOrange[100],
       topCardWidget: _customTop(element),
       bottomCardHeight: 200,
       bottomCardWidget: _customBot(element),
@@ -80,12 +80,15 @@ List<Widget> _listDioses(List<dynamic> data, BuildContext context){
 
 
 Widget _slimyCardMito(List<dynamic> data, BuildContext context){
-  return SlimyCard(
-    color: Colors.deepOrange[200],
-    topCardHeight: 160,
-    topCardWidget: _customTopMito(data, context),
-    bottomCardHeight: 450,
-    bottomCardWidget: _customBotMito(data, context),
+  return Container(
+    padding: EdgeInsets.all(5.0),
+    child: SlimyCard(
+        color: Colors.deepOrange[100],
+        topCardHeight: 160,
+        topCardWidget: _customTopMito(data, context),
+        bottomCardHeight: 450,
+        bottomCardWidget: _customBotMito(data, context),
+    )
   );
 }
 
@@ -113,7 +116,7 @@ Widget _customTop(dynamic element){
 Widget _customBot(dynamic element){
     String _descripcion = element['dios'];
   return Container(
-    child: Column(
+    child: ListView(
       children: [
         Text(_descripcion,style: TextStyle(color: Colors.black, fontSize: 20.0)),
       ]
@@ -130,7 +133,7 @@ Widget _customTopMito(List<dynamic> data, BuildContext context){
 
 Widget _customBotMito(List<dynamic> data, BuildContext context){
   return Container(
-    child: Column(
+    child: ListView(
       children: [
         Text(data.elementAt(0)['incas']['mito'],style: TextStyle(color: Colors.black, fontSize: 20.0)),
       ]

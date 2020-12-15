@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'package:bordered_text/bordered_text.dart';
 import 'package:flutter/material.dart';
 import 'package:app_kids/src/pages/retoPage/tablero.dart';
 
@@ -63,20 +63,29 @@ class RetoState extends State<Reto> {
 
   Widget buildScore() {
     return Padding(
-      padding: EdgeInsets.only(left: 8.0, right: 8.0),
+      padding: EdgeInsets.only(top: 10.0, left: 8.0, right: 8.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          Text(time.toString() + "s",
-              style: TextStyle(
-                  fontSize: 32.0,
-                  color: Colors.black,
-                  fontFamily: 'GamjaFlower')),
-          Text(score.toString(),
-              style: TextStyle(
-                  fontSize: 32.0,
-                  color: Colors.black,
-                  fontFamily: 'GamjaFlower'))
+          BorderedText( 
+                  strokeWidth: 3.0,
+                  strokeColor: Colors.black,
+                  child: Text(time.toString() + "s",
+                            style: TextStyle(
+                                fontSize: 32.0,
+                                color: Colors.white,
+                                fontFamily: 'GamjaFlower'))
+                        
+          ),
+          BorderedText( 
+                  strokeWidth: 3.0,
+                  strokeColor: Colors.black,
+                  child:Text(score.toString(),
+                          style: TextStyle(
+                          fontSize: 32.0,
+                          color: Colors.white,
+                          fontFamily: 'GamjaFlower'))
+          )
         ],
       ),
     );
@@ -86,8 +95,7 @@ class RetoState extends State<Reto> {
     return Flexible(
         child: Stack(
       children: <Widget>[
-        Padding(padding: EdgeInsets.all(8.0), child: CardBoard(onWin: onWin)),
-        buildGradientView()
+        Padding(padding: EdgeInsets.all(6.0), child: CardBoard(onWin: onWin)),
       ],
     ));
   }

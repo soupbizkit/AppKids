@@ -124,7 +124,7 @@ class CardItemState extends State<CardItem> with TickerProviderStateMixin {
 
   Widget buildImage(String image) {
     return Padding(
-      padding: EdgeInsets.all(1.0),
+      padding: EdgeInsets.all(5.0),
       child: Image.asset(image),
     );
   }
