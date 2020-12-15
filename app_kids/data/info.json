@@ -77,29 +77,29 @@
             "mayas" : 
             {
                 "ruta" : "mayas",
-                "img-ubicacion" : "https://culturamaya.info/wp-content/uploads/2018/04/maya-mapa-actual.png",
-                "ubicacion" : "Ocuparon el sur de mexico guatemela belice el este de honduras y el norte del salvador",
-                "img-gobernante" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg",
+                "img-ubicacion" : "https://www.paratodomexico.com/imagenes/mexico-prehispanico/culturas/mayas_mapa.jpg",
+                "ubicacion" : "Tradicionalmente los Mayas han habitado en los estados mexicanos de Yucatán, Campeche, Tabasco y Chiapas, en la mayor parte de Guatemala y en regiones de Belice y Honduras. Los mayas forman la mayoría de la población campesina en Yucatán y Guatemala.",
+                "img-gobernante" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Yax_Kuk_Mo.jpg/800px-Yax_Kuk_Mo.jpg",
                 "gobernante" : "K inich Yax Kuk Mo, Fundador de la dinastía del gran centro urbano de Copán. Forjador del esplendor del señorío de Palenque, Chiapas, K inich Janahb Pakal II es un personaje emblemático del Clásico maya.",
                 "img-construcciones" : "https://www.nationalgeographic.com.es/medio/2018/02/28/templo-del-gran-jaguar-tikal-guatemala_5c6cb341_1280x851.jpg",
                 "construcciones" : "Gracias a sus conocimientos arquitectonicos pudieron construir cupulas y arcos , el templo del jaguar es una de sus construcciones importantes",
-                "img-social" : "httpwa",
-                "social" : "caciques blablabladddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+                "img-social" : "https://www.cultura10.org/wp-content/uploads/2018/03/ORGANIZACION-SOCIAL-DE-LOS-MAYAS-%C3%A9lites.jpg.webp",
+                "social" : "La cultura Maya funciono basada en un sistema de castas o clanes donde cada clan debia poseer el mismo linaje y cuanto mas cercana era su consaguinidad con un ancestro fundador mayor era el privilegio.",
                 "lista-clases" :[
                         {
                             "nombre" : "elite o almenehoob",
                             "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
-                            "imagen" : "https://c.files.bbci.co.uk/40BC/production/_102427561_gettyimages-821131424.jpg"
+                            "imagen" : "http://froac.manizales.unal.edu.co/roapRAIM/scorm/314/civilizacion_maya_sociedad.jpg"
                         },
                         {
-                            "nombre" : "media",
-                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
-                            "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
+                            "nombre" : "Artesanos y campesinos o Ah Chembal Uinicoob",
+                            "descripcion" : "Se dedicaban a la agricultura, construcción de obras públicas, y labores artesanales. Entre sus obligaciones estaba el pagar impuestos a las autoridades civiles o religiosas.",
+                            "imagen" : "https://pbs.twimg.com/profile_images/704800582532345857/NIvTh-dW_400x400.jpg"
                         },
                         {
-                            "nombre" : "baja",
-                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
-                            "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
+                            "nombre" : "Esclavos o pentacoob",
+                            "descripcion" : "estaba compuesta por los prisioneros de guerra, infractores o criminales, quienes eran obligados a realizar el trabajo forzado",
+                            "imagen" : "https://static4.depositphotos.com/1011850/285/v/950/depositphotos_2854248-stock-illustration-mayan-sacrifices.jpg"
                         }
                 ],
                 "img-vestuarios" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg",
