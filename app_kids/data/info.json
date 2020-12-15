@@ -126,27 +126,27 @@
                             "imagen" : "https://static4.depositphotos.com/1011850/285/v/950/depositphotos_2854248-stock-illustration-mayan-sacrifices.jpg"
                         }
                 ],
-                "img-vestuarios" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg",
-                "vestuarios" : "la vestimenta maya se diseñaba solo para cubrir el cuerpo y eran sostenidas por cinturones hechos de tela, o simplemente protegían las partes íntimas.",
+                "img-vestuarios" : "https://www.explore.mx/wp-content/uploads/2020/03/vestimenta-maya-portada.png",
+                "vestuarios" : "a vestimenta maya se diseñaba solo para cubrir el cuerpo y eran sostenidas por cinturones hechos de tela, o simplemente protegían las partes íntimas. Adicionalmente, solían usar muchos adornos en la cabeza como pañuelos, coronas, gorros cónicos y como complemento algunas joyas.",
                 "lista-dioses" :[
                     {
-                        "img-dios" : "https://mxcity.mx/wp-content/uploads/2020/05/yacatecuhtli-1.jpg",
-                        "nombre-dios":"Yacatecuhtli",
-                        "dios" : "putotes la protección para mercaderes y viajeros, y por esa razón los ciudadanos le hacían ofrendas regalándole esclavos a cambio de su bendición. Lo que destaca de esta deidad es la desproporción de su nariz, que servía como guía."    
+                        "img-dios" : "https://fastly.4sqi.net/img/general/600x600/33218243_R6EqxuXmGBDd_fSeiOub4TvKLSf2t4fhmA3MKC0vnTE.jpg",
+                        "nombre-dios":"Ah mun",
+                        "dios" : "controlaba el alimento sagrado de los mayas: el maíz. Se le representaba siempre como un joven con deformación craneal portando mazorcas de maíz."    
                     },
                     {
                         "img-dios" : "https://i.pinimg.com/originals/7b/3d/f1/7b3df16194f440edb098bff1fdda698f.jpg",
-                        "nombre-dios":"Quetzalcóatl",
-                        "dios" : "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba."
+                        "nombre-dios":"Ah kin",
+                        "dios" : "Ah Kin, considerado como el dios del sol, era muy respetado por los mayas desde tiempos remotos, ya que se le consideraba un sanador de enfermedades y un protector contra los demonios del mundo de la oscuridad."
                     },
                     {
-                        "img-dios" : "https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/coatlicue-completa-550.jpg",
-                        "nombre-dios":"Coatlicue",
-                        "dios" : "Coatlicue tenía forma de serpiente con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses."         
+                        "img-dios" : "https://pueblosoriginarios.com/meso/maya/maya/imagenes/itzamna-dresde.jpg",
+                        "nombre-dios":"Itzamná",
+                        "dios" : "Creador de los hombres un dios bueno, señor de los cielos, del día y de la noche. Según algunos relatos su pareja era Ixchel."         
                     }
                 ],
-                "nombre-mito":"Mito de la Creación",
-                "mito" : "putitos"
+                "nombre-mito":"Uay Chivo",
+                "mito" : "Uay Chivo refiere a un hechicero o brujo representado como un ente de color negro, de ojos brillantes y grandes cuernos. Su misión es asustar a quienes aparecen en su camino por las noches."
             }
         }
     ],
