@@ -59,15 +59,22 @@ class SocialAztecasState extends State<SocialAztecas>{
 
   Widget _organizacionSocial(List<dynamic> data, BuildContext context){
     return Card(
-      child: Column(children: [
-        Text('Organizacion Social de los incas',maxLines: 1,style: TextStyle(fontSize: 18)),
-        Text(data.elementAt(1)['aztecas']['social']),
-        FadeInImage(
-          image:NetworkImage(data.elementAt(1)['aztecas']['img-social']),
-          placeholder: AssetImage('asset/loading.gif'),
-          height: 350,
-          fit: BoxFit.cover)
-      ])
+      elevation: 10,
+      child: Container(
+              padding: EdgeInsets.all(10.0),
+              child: Column(
+                children: [
+                  Text('Organizacion Social de los incas',maxLines: 1,style: TextStyle(fontSize: 18)),
+                  SizedBox(height: 20),
+                  Text(data.elementAt(1)['aztecas']['social']),
+                  FadeInImage(
+                    image:NetworkImage(data.elementAt(1)['aztecas']['img-social']),
+                    placeholder: AssetImage('asset/loading.gif'),
+                    height: 350,
+                    fit: BoxFit.contain)
+                ]
+              )
+      )
     );
   }
 
@@ -93,7 +100,7 @@ class SocialAztecasState extends State<SocialAztecas>{
             placeholder: AssetImage('asset/loading.gif'),
             height: 150,
             width: 120,
-            fit: BoxFit.cover),
+            fit: BoxFit.contain),
             Expanded(
               child: Column(
                 children: [

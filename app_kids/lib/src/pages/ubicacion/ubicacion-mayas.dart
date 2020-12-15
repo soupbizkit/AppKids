@@ -9,7 +9,7 @@ class UbicacionMayas extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-        Image.asset("assets/imagenFondo.jpg",
+        Image.asset("asset/imagenFondo.jpg",
           height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
           fit: BoxFit.cover),
@@ -68,7 +68,7 @@ Widget _cardTerritorio(List<dynamic> data, BuildContext context){
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
                     image:NetworkImage(data.elementAt(2)['mayas']['img-ubicacion']) ,
-                    placeholder: AssetImage('assets/loading.gif'),
+                    placeholder: AssetImage('asset/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
                     ) 
@@ -95,7 +95,7 @@ Widget _cardGobernante(List<dynamic> data, BuildContext context){
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
                     image:NetworkImage(data.elementAt(2)['mayas']['img-gobernante']) ,
-                    placeholder: AssetImage('assets/loading.gif'),
+                    placeholder: AssetImage('asset/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
                     )
@@ -122,7 +122,7 @@ Widget _cardConstruccion(List<dynamic> data, BuildContext context){
             borderRadius: BorderRadius.all(Radius.circular(20.0)),
             child: FadeInImage(
                     image:NetworkImage(data.elementAt(2)['mayas']['img-construcciones']),
-                    placeholder: AssetImage('assets/loading.gif'),
+                    placeholder: AssetImage('asset/loading.gif'),
                     height: 500.0,
                     fit: BoxFit.cover
                     )

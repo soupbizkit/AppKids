@@ -11,41 +11,51 @@
                     "gobernante" : "Pachacútec fue el gobernante Inca más destacado ya que fue quien inició la expansión del imperio tras salvar su tribu de un ataque.",
                     "img-construcciones" : "https://i.pinimg.com/originals/af/d1/42/afd1425409dfbe0633933de0af94fb06.jpg",
                     "construcciones" : "Los incas fueron excelentes constructores. Debido a los terremotos, sus edificaciones estaban hechas de piedras labradas que encajaban perfectamente para mantenerlas firmes.",
-                    "img-social" : "httpwa",
-                    "social" : "caciques blablabla",
+                    "img-social" : "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/10525797/Lloque_yupanqui_social.png",
+                    "social" : "",
                     "lista-clases" :[
                         {
-                            "nombre" : "eliteinca",
-                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
-                            "imagen" : "https://c.files.bbci.co.uk/40BC/production/_102427561_gettyimages-821131424.jpg"
+                            "nombre" : "El inca",
+                            "descripcion" : "Fue la máxima autoridad del imperio. A los emperadores se les atribuía un origen divino y títulos como ‘Sapa inca’ (divino inca).",
+                            "imagen" : "https://i.pinimg.com/originals/17/e1/44/17e1443565deb8e49c14edc611b52e28.gif"
                         },
                         {
-                            "nombre" : "media inca",
-                            "descripcion" : "Eran un grupo privilegiado que tenian consanguinidad directa con los fundadores Mayas, eran los que tenian el poder y la autoridad.",
-                            "imagen" : "https://3.bp.blogspot.com/_MPj1LpOuRDc/SUac-3orWuI/AAAAAAAAABM/IH3dg4b-WrE/w1200-h630-p-k-no-nu/Dios_del_Maiz.jpg"
+                            "nombre" : "Nobleza",
+                            "descripcion" : "Existen los mitimaes y los yanaconas, unos son grupos para colonizar y los otros son servidores del inca y del imperio.",
+                            "imagen" : "https://www.socialhizo.com/images/edad_antigua/incas/sociedad-y-vida-cotidiana/incaycoya-vestimenta.jpg"
+                        },
+                        {
+                            "nombre" : "Pueblo",
+                            "descripcion" : "Grupos trasladados para colonizar nuevas regiones enseñando a los pueblos nuevas costumbres. ",
+                            "imagen" : "https://www.definicionabc.com/wp-content/uploads/historia/Imperio-Inca.jpg"
+                        },
+                        {
+                            "nombre" : "Aillu",
+                            "descripcion" : "Es la base de la sociedad, las familias unidas por vínculo del gobierno de sangre, territorial o religión.",
+                            "imagen" : "https://lh3.googleusercontent.com/proxy/KBArGdBiWMAVBZOkRQrK2rcHLjh6QsSzeG6Pe2Ng7bWx1cgaIVh9DKPiPoGgMzoVj-4CwSCj1SpHVcPpOn7VTieb3-4ttxlm4O2R_lTm-vOa04CzaJskV9Heaw"
                         }
                     ],
-                    "img-vestuarios" : "httppp",
-                    "vestuarios" : "se vestian así  yasa",
+                    "img-vestuarios" : "https://i.pinimg.com/originals/8c/e1/96/8ce1968f7c2b81f5c3d52aea1faadfa5.jpg",
+                    "vestuarios" : "las mujeres usaban un vestido largo, atado a la cintura por una faja, un manto que se echaba sobre los hombros y sandalias u ojotas. Los hombres vestían un taparrabo, una túnica sin mangas llamada uncu, y un manto y sandalias similares a los de las mujeres.",
                     "lista-dioses" :[
                         {
-                            "img-dios" : "https://mxcity.mx/wp-content/uploads/2020/05/yacatecuhtli-1.jpg",
-                            "nombre-dios":"Yacatecuhtli",
-                            "dios" : "Representaba la protección para mercaderes y viajeros, y por esa razón los ciudadanos le hacían ofrendas regalándole esclavos a cambio de su bendición. Lo que destaca de esta deidad es la desproporción de su nariz, que servía como guía."    
+                            "img-dios" : "https://www.ancient-origins.es/sites/default/files/Imagen-Inti.jpg",
+                            "nombre-dios":"Inti",
+                            "dios" : "El sol fue la divinidad más aceptada y adorada en la cosmovisión inca quienes usaban el término quechua ‘Inti’ para referirse a él. "    
                         },
                         {
-                            "img-dios" : "https://i.pinimg.com/originals/7b/3d/f1/7b3df16194f440edb098bff1fdda698f.jpg",
-                            "nombre-dios":"Quetzalcóatl",
-                            "dios" : "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba."
+                            "img-dios" : "https://i.pinimg.com/originals/54/6a/4b/546a4ba5cf157b3757ae6a60b3019ac7.jpg",
+                            "nombre-dios":"Mama Quilla",
+                            "dios" : "En el idioma quechua ‘Mama’ quiere decir ‘Madre’ y Quilla ‘Luna’. Que para los incas era la diosa de la fertilidad y esposa del dios sol."
                         },
                         {
-                            "img-dios" : "https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/coatlicue-completa-550.jpg",
-                            "nombre-dios":"Coatlicue",
-                            "dios" : "Puto tenía forma de serpiente con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses."         
+                            "img-dios" : "https://ilquotidianolatinoamericano.files.wordpress.com/2020/08/307fe5_6e7ce9ac9b0c4f16a26397d9561f5208_mv2.jpg",
+                            "nombre-dios":"Pacha Mama",
+                            "dios" : "La Pacha Mama era la diosa de la fertilidad de la tierra que tuvo gran importancia no solo en el tiempo de los incas, sino en las diferentes culturas andinas antes y después de éstos."         
                         }
                     ],
-                    "nombre-mito":"Mito de la Creación",
-                    "mito" : "mitomitmotmomtio"
+                    "nombre-mito":"Fertilidad de la tierra",
+                    "mito" : "Para que la tierra tuviera buena fertilidad los incas realizaban ofrendas a la diosa Pachamama para que sus tierras fueran fértiles, la más importante ofrenda era la chicha ya que estaba establecidoq ue se le debeía ofrecer antes de la siembra haciéndosela beber rociándola por la tierra."
                 }
             
         },
@@ -127,7 +137,7 @@
                         }
                 ],
                 "img-vestuarios" : "https://www.explore.mx/wp-content/uploads/2020/03/vestimenta-maya-portada.png",
-                "vestuarios" : "a vestimenta maya se diseñaba solo para cubrir el cuerpo y eran sostenidas por cinturones hechos de tela, o simplemente protegían las partes íntimas. Adicionalmente, solían usar muchos adornos en la cabeza como pañuelos, coronas, gorros cónicos y como complemento algunas joyas.",
+                "vestuarios" : "La vestimenta maya se diseñaba solo para cubrir el cuerpo y eran sostenidas por cinturones hechos de tela, o simplemente protegían las partes íntimas. Adicionalmente, solían usar muchos adornos en la cabeza como pañuelos, coronas, gorros cónicos y como complemento algunas joyas.",
                 "lista-dioses" :[
                     {
                         "img-dios" : "https://fastly.4sqi.net/img/general/600x600/33218243_R6EqxuXmGBDd_fSeiOub4TvKLSf2t4fhmA3MKC0vnTE.jpg",
