@@ -47,9 +47,17 @@ class RetoState extends State<Reto> {
           fit: BoxFit.cover),
         Scaffold(
             backgroundColor: Colors.transparent,
-            body: Container(
+            body: this.score > 2200 
+              ? 
+              Center(
+                child: Image.asset(
+                  "asset/victory.gif",
+                )
+              )
+              : 
+              Container(
               child: Column(
-                children: <Widget>[
+                children:<Widget>[
                   SizedBox(height: 24.0),
                   buildScore(),
                   buildBoard()
@@ -123,6 +131,15 @@ class RetoState extends State<Reto> {
                   colors: [Colors.transparent, Colors.black, Colors.black])),
         )
       ],
+    );
+  }
+
+  Widget crearAlert(){
+    return AlertDialog(
+      title: Text('Victoria!'),
+      content: Image.asset(
+          "asset/notFound.gif"
+      )
     );
   }
 
